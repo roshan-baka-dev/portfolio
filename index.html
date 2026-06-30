@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roshan Niran Lakra — Backend Developer</title>
-    <meta name="description" content="Portfolio of Roshan Niran Lakra — Backend Developer specializing in scalable microservices, distributed systems, and high-performance APIs. IIT Kharagpur graduate.">
+    <meta name="description"
+        content="Portfolio of Roshan Niran Lakra — Backend Developer specializing in scalable microservices, distributed systems, and high-performance APIs. IIT Kharagpur graduate.">
     <meta name="keywords" content="Roshan Niran Lakra, Backend Developer, Node.js, Python, Django, Portfolio">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <style>
         /* ============================================
            CSS RESET & VARIABLES
            ============================================ */
-        *, *::before, *::after {
+        *,
+        *::before,
+        *::after {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -73,9 +79,18 @@
             -moz-osx-font-smoothing: grayscale;
         }
 
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: var(--bg-secondary); }
-        ::-webkit-scrollbar-thumb { background: var(--accent-primary); border-radius: 3px; }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--accent-primary);
+            border-radius: 3px;
+        }
 
         /* ============================================
            ANIMATED BACKGROUND
@@ -122,9 +137,19 @@
         }
 
         @keyframes floatOrb {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            33% { transform: translate(80px, -60px) scale(1.1); }
-            66% { transform: translate(-40px, 40px) scale(0.9); }
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(80px, -60px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-40px, 40px) scale(0.9);
+            }
         }
 
         /* ============================================
@@ -245,9 +270,11 @@
         .hamburger.active span:nth-child(1) {
             transform: rotate(45deg) translate(5px, 5px);
         }
+
         .hamburger.active span:nth-child(2) {
             opacity: 0;
         }
+
         .hamburger.active span:nth-child(3) {
             transform: rotate(-45deg) translate(5px, -5px);
         }
@@ -345,8 +372,17 @@
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.5; transform: scale(1.3); }
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(1.3);
+            }
         }
 
         .hero-name {
@@ -487,23 +523,51 @@
         }
 
         @keyframes bounce {
-            0%, 100% { transform: translateX(-50%) translateY(0); }
-            50% { transform: translateX(-50%) translateY(8px); }
+
+            0%,
+            100% {
+                transform: translateX(-50%) translateY(0);
+            }
+
+            50% {
+                transform: translateX(-50%) translateY(8px);
+            }
         }
 
         @keyframes scrollWheel {
-            0% { opacity: 1; transform: translateX(-50%) translateY(0); }
-            100% { opacity: 0; transform: translateX(-50%) translateY(10px); }
+            0% {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%) translateY(10px);
+            }
         }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         /* ============================================
@@ -572,8 +636,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
         }
 
         .afc-icon {
@@ -1432,12 +1503,29 @@
             transform: translateX(0);
         }
 
-        .stagger-1 { transition-delay: 0.1s; }
-        .stagger-2 { transition-delay: 0.2s; }
-        .stagger-3 { transition-delay: 0.3s; }
-        .stagger-4 { transition-delay: 0.4s; }
-        .stagger-5 { transition-delay: 0.5s; }
-        .stagger-6 { transition-delay: 0.6s; }
+        .stagger-1 {
+            transition-delay: 0.1s;
+        }
+
+        .stagger-2 {
+            transition-delay: 0.2s;
+        }
+
+        .stagger-3 {
+            transition-delay: 0.3s;
+        }
+
+        .stagger-4 {
+            transition-delay: 0.4s;
+        }
+
+        .stagger-5 {
+            transition-delay: 0.5s;
+        }
+
+        .stagger-6 {
+            transition-delay: 0.6s;
+        }
 
         /* ============================================
            PARTICLE CANVAS
@@ -1456,6 +1544,7 @@
             .skills-categories {
                 grid-template-columns: 1fr 1fr;
             }
+
             .skill-bars {
                 grid-template-columns: 1fr;
             }
@@ -1628,6 +1717,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Background Effects -->
     <div class="bg-grid"></div>
@@ -1667,23 +1757,29 @@
             </h1>
             <p class="hero-title">Backend Developer · Systems Architect</p>
             <p class="hero-tagline">
-                Engineering high-performance distributed systems and scalable backend architectures. 
+                Engineering high-performance distributed systems and scalable backend architectures.
                 Passionate about building robust APIs, microservices, and real-time data pipelines.
             </p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">
                     <span>View My Work</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" />
+                    </svg>
                 </a>
                 <a href="#contact" class="btn btn-secondary">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                        <path d="m22 6-10 7L2 6" />
+                    </svg>
                     <span>Get In Touch</span>
                 </a>
             </div>
             <div class="hero-stats">
                 <div class="hero-stat">
                     <div class="hero-stat-value" data-count="1500">0</div>
-                    <div class="hero-stat-label">Problems Solved</div>
+                    <div class="hero-stat-label">DSA Problems Solved</div>
                 </div>
                 <div class="hero-stat">
                     <div class="hero-stat-value" data-count="1830">0</div>
@@ -1736,13 +1832,13 @@
                 <div class="about-text reveal-right">
                     <h3>Building the backbone of<br>modern applications</h3>
                     <p>
-                        I'm a backend developer and IIT Kharagpur graduate passionate about building 
-                        high-throughput, fault-tolerant distributed systems. I specialize in designing 
+                        I'm a backend developer and IIT Kharagpur graduate passionate about building
+                        high-throughput, fault-tolerant distributed systems. I specialize in designing
                         microservices that handle thousands of daily jobs with near-zero downtime.
                     </p>
                     <p>
-                        From architecting async job processing pipelines with Django, Celery & RabbitMQ 
-                        to building real-time event-driven integrations and REST APIs secured with JWT — 
+                        From architecting async job processing pipelines with Django, Celery & RabbitMQ
+                        to building real-time event-driven integrations and REST APIs secured with JWT,
                         I thrive on solving complex backend challenges at scale.
                     </p>
                     <div class="about-highlights">
@@ -1909,7 +2005,9 @@
                         <div class="timeline-meta">
                             <span class="timeline-date">Aug 2025 — May 2026</span>
                             <span class="timeline-location">Remote</span>
-                            <a href="https://drive.google.com/file/d/1hAEZi2c1ILE8UlvCf2mO4-BrTeZeSc0I/view?usp=drive_link" target="_blank" rel="noopener" class="timeline-badge" style="text-decoration:none;cursor:pointer;">Certificate ↗</a>
+                            <a href="https://drive.google.com/file/d/1hAEZi2c1ILE8UlvCf2mO4-BrTeZeSc0I/view?usp=drive_link"
+                                target="_blank" rel="noopener" class="timeline-badge"
+                                style="text-decoration:none;cursor:pointer;">Certificate ↗</a>
                         </div>
                         <h3 class="timeline-role">Backend Developer — Internship</h3>
                         <p class="timeline-company">Singledoor Techno Solutions Pvt. Ltd</p>
@@ -1921,10 +2019,15 @@
                                 <span>Django</span><span>Celery</span><span>RabbitMQ</span><span>Redis</span><span>PostgreSQL</span>
                             </div>
                             <ul class="timeline-list">
-                                <li>Unified async processing for <span class="highlight">15+ apps</span> via a Django/Celery & RabbitMQ microservice, reliably routing <span class="highlight">5000+ daily</span> jobs.</li>
-                                <li>Added atomic Redis rate-limiting and tuned exponential backoff, slashing third-party API throttling errors by <span class="highlight">85%</span>.</li>
-                                <li>Engineered idempotent webhook callbacks to Node.js with safe retries, ensuring <span class="highlight">100% data integrity</span> and 0 duplicate executions.</li>
-                                <li>Pushed real-time job updates to <span class="highlight">100+ active clients</span> via scalable WebSocket streams using Django Channels and Redis.</li>
+                                <li>Unified async processing for <span class="highlight">15+ apps</span> via a
+                                    Django/Celery & RabbitMQ microservice, reliably routing <span
+                                        class="highlight">5000+ daily</span> jobs.</li>
+                                <li>Added atomic Redis rate-limiting and tuned exponential backoff, slashing third-party
+                                    API throttling errors by <span class="highlight">85%</span>.</li>
+                                <li>Engineered idempotent webhook callbacks to Node.js with safe retries, ensuring <span
+                                        class="highlight">100% data integrity</span> and 0 duplicate executions.</li>
+                                <li>Pushed real-time job updates to <span class="highlight">100+ active clients</span>
+                                    via scalable WebSocket streams using Django Channels and Redis.</li>
                             </ul>
                         </div>
 
@@ -1935,9 +2038,14 @@
                                 <span>Node.js</span><span>GraphQL</span><span>Redis</span>
                             </div>
                             <ul class="timeline-list">
-                                <li>Engineered an Express.js webhook syncing Calendly invite data to Monday.com, saving <span class="highlight">15+ hours/week</span> of manual entry.</li>
-                                <li>Built a HMAC-SHA256-verified webhook pipeline with retry-safe execution, ensuring sub-3s p95 latency and <span class="highlight">99% uptime</span>.</li>
-                                <li>Shipped a GraphQL data pipeline with deduplication, processing <span class="highlight">500+ weekly events</span> to maintain <span class="highlight">100% CRM record accuracy</span>.</li>
+                                <li>Engineered an Express.js webhook syncing Calendly invite data to Monday.com, saving
+                                    <span class="highlight">15+ hours/week</span> of manual entry.
+                                </li>
+                                <li>Built a HMAC-SHA256-verified webhook pipeline with retry-safe execution, ensuring
+                                    sub-3s p95 latency and <span class="highlight">99% uptime</span>.</li>
+                                <li>Shipped a GraphQL data pipeline with deduplication, processing <span
+                                        class="highlight">500+ weekly events</span> to maintain <span
+                                        class="highlight">100% CRM record accuracy</span>.</li>
                             </ul>
                         </div>
                     </div>
@@ -1950,13 +2058,17 @@
                         <div class="timeline-meta">
                             <span class="timeline-date">May 2025 — Jul 2025</span>
                             <span class="timeline-location">Remote</span>
-                            <a href="https://drive.google.com/file/d/1H2y7hCBcDR_zPsYWPI9DdEAq_bOklG6L/view?usp=drive_link" target="_blank" rel="noopener" class="timeline-badge" style="text-decoration:none;cursor:pointer;">Certificate ↗</a>
+                            <a href="https://drive.google.com/file/d/1H2y7hCBcDR_zPsYWPI9DdEAq_bOklG6L/view?usp=drive_link"
+                                target="_blank" rel="noopener" class="timeline-badge"
+                                style="text-decoration:none;cursor:pointer;">Certificate ↗</a>
                         </div>
                         <h3 class="timeline-role">Web Developer — Internship</h3>
                         <p class="timeline-company">RideAlly Travels Pvt. Ltd.</p>
                         <ul class="timeline-list">
-                            <li>Optimized MySQL queries via targeted indexing and restructured JOINs, cutting execution time by <span class="highlight">30%</span> on high-traffic routes.</li>
-                            <li>Migrated legacy PHP Search APIs to Node.js/Express, improving throughput by <span class="highlight">40%</span> under concurrent load testing.</li>
+                            <li>Optimized MySQL queries via targeted indexing and restructured JOINs, cutting execution
+                                time by <span class="highlight">30%</span> on high-traffic routes.</li>
+                            <li>Migrated legacy PHP Search APIs to Node.js/Express, improving throughput by <span
+                                    class="highlight">40%</span> under concurrent load testing.</li>
                         </ul>
                     </div>
                 </div>
@@ -1978,23 +2090,41 @@
                     <div class="project-card-header">
                         <div class="project-icon">🖼️</div>
                         <div class="project-links">
-                            <a href="https://github.com/roshan-baka-dev/Image-processing-frontend" class="project-link" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            <a href="https://github.com/roshan-baka-dev/Image-processing-frontend" class="project-link"
+                                title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
                             </a>
-                            <a href="https://image-processing-frontend-xi.vercel.app" class="project-link" title="Live Demo" aria-label="Live Demo" target="_blank" rel="noopener">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            <a href="https://image-processing-frontend-xi.vercel.app" class="project-link"
+                                title="Live Demo" aria-label="Live Demo" target="_blank" rel="noopener">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
                             </a>
                         </div>
                     </div>
                     <div class="project-card-body">
                         <h3 class="project-name">Image Processing Platform</h3>
                         <ul class="project-desc">
-                            <li>Architected an async Sharp image pipeline via RabbitMQ, achieving <strong>99.9% fault tolerance</strong> with manual acks and auto-requeues.</li>
-                            <li>Integrated AWS S3 & Rekognition to filter <strong>100% of NSFW uploads</strong>, securing storage via IAM & persisting metadata in MongoDB.</li>
-                            <li>Secured REST APIs with JWT & Argon2, deploying layered rate-limiting to block <strong>100% of brute-force</strong> API abuse attempts.</li>
-                            <li>Slashed repeat-request latency by <strong>60%</strong> by caching transformed variants in Redis.</li>
-                            <li>Automated AWS EC2 deployments via GitHub Actions CI/CD, cutting manual build time by <strong>80%</strong>.</li>
-                            <li>Implemented a RAG search, combining Hugging Face vector embeddings with image metadata to reduce search time by <strong>90%</strong>.</li>
+                            <li>Architected an async Sharp image pipeline via RabbitMQ, achieving <strong>99.9% fault
+                                    tolerance</strong> with manual acks and auto-requeues.</li>
+                            <li>Integrated AWS S3 & Rekognition to filter <strong>100% of NSFW uploads</strong>,
+                                securing storage via IAM & persisting metadata in MongoDB.</li>
+                            <li>Secured REST APIs with JWT & Argon2, deploying layered rate-limiting to block
+                                <strong>100% of brute-force</strong> API abuse attempts.
+                            </li>
+                            <li>Slashed repeat-request latency by <strong>60%</strong> by caching transformed variants
+                                in Redis.</li>
+                            <li>Automated AWS EC2 deployments via GitHub Actions CI/CD, cutting manual build time by
+                                <strong>80%</strong>.
+                            </li>
+                            <li>Implemented a RAG search, combining Hugging Face vector embeddings with image metadata
+                                to reduce search time by <strong>90%</strong>.</li>
                         </ul>
                         <div class="project-tech-stack">
                             <span class="project-tech-tag">Node.js</span>
@@ -2012,22 +2142,40 @@
                     <div class="project-card-header">
                         <div class="project-icon">🎬</div>
                         <div class="project-links">
-                            <a href="https://github.com/roshan-baka-dev/movie-system-backend" class="project-link" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            <a href="https://github.com/roshan-baka-dev/movie-system-backend" class="project-link"
+                                title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
                             </a>
-                            <a href="https://movie-system-frontend.vercel.app/" class="project-link" title="Live Demo" aria-label="Live Demo" target="_blank" rel="noopener">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            <a href="https://movie-system-frontend.vercel.app/" class="project-link" title="Live Demo"
+                                aria-label="Live Demo" target="_blank" rel="noopener">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
                             </a>
                         </div>
                     </div>
                     <div class="project-card-body">
                         <h3 class="project-name">Movie Reservation Platform</h3>
                         <ul class="project-desc">
-                            <li>Built transaction-safe seat booking with lock expiry, handling simulated peak traffic of <strong>500 req/sec</strong> without double-booking.</li>
-                            <li>Architected Redis & BullMQ background pipelines for seat-expiry, maintaining &lt; <strong>200ms core API latency</strong> under peak load.</li>
-                            <li>Deployed layered rate-limiting and JWT role-based access control, securing <strong>20+ core APIs</strong> against unauthorized system access.</li>
-                            <li>Pushed live booking updates to <strong>1000+ concurrent users</strong> instantly via SSE & Redis Pub/Sub, ensuring real-time client sync.</li>
-                            <li>Integrated Stripe payments with signed webhooks & idempotent flows, ensuring <strong>100% safety</strong> and 0 duplicate charges.</li>
+                            <li>Built transaction-safe seat booking with lock expiry, handling simulated peak traffic of
+                                <strong>500 req/sec</strong> without double-booking.
+                            </li>
+                            <li>Architected Redis & BullMQ background pipelines for seat-expiry, maintaining &lt;
+                                <strong>200ms core API latency</strong> under peak load.
+                            </li>
+                            <li>Deployed layered rate-limiting and JWT role-based access control, securing <strong>20+
+                                    core APIs</strong> against unauthorized system access.</li>
+                            <li>Pushed live booking updates to <strong>1000+ concurrent users</strong> instantly via SSE
+                                & Redis Pub/Sub, ensuring real-time client sync.</li>
+                            <li>Integrated Stripe payments with signed webhooks & idempotent flows, ensuring
+                                <strong>100% safety</strong> and 0 duplicate charges.
+                            </li>
                         </ul>
                         <div class="project-tech-stack">
                             <span class="project-tech-tag">Node.js</span>
@@ -2068,7 +2216,9 @@
                     </div>
                     <div class="edu-course-group">
                         <h4>📐 Mathematics & Statistics</h4>
-                        <p>Probability and Statistics, Linear Algebra, Numerical and Complex Analysis, Applied Computational Methods, Numerical Methods Lab, Advanced Calculus, Transform Calculus, Theory of Partial Differential Equations</p>
+                        <p>Probability and Statistics, Linear Algebra, Numerical and Complex Analysis, Applied
+                            Computational Methods, Numerical Methods Lab, Advanced Calculus, Transform Calculus, Theory
+                            of Partial Differential Equations</p>
                     </div>
                 </div>
             </div>
@@ -2124,7 +2274,7 @@
                 <div class="contact-info reveal-left">
                     <h3>Let's build something<br>great together.</h3>
                     <p>
-                        I'm always open to discussing new projects, creative ideas, or 
+                        I'm always open to discussing new projects, creative ideas, or
                         opportunities to be part of your vision. Feel free to reach out!
                     </p>
                     <div class="contact-links">
@@ -2142,14 +2292,16 @@
                                 <div class="contact-link-label">Call or WhatsApp</div>
                             </div>
                         </a>
-                        <a href="https://www.linkedin.com/in/roshan-niran-l-b6a319205" class="contact-link" target="_blank" rel="noopener">
+                        <a href="https://www.linkedin.com/in/roshan-niran-l-b6a319205" class="contact-link"
+                            target="_blank" rel="noopener">
                             <div class="contact-link-icon">💼</div>
                             <div>
                                 <div class="contact-link-text">LinkedIn</div>
                                 <div class="contact-link-label">Professional profile</div>
                             </div>
                         </a>
-                        <a href="https://github.com/roshan-baka-dev" class="contact-link" target="_blank" rel="noopener">
+                        <a href="https://github.com/roshan-baka-dev" class="contact-link" target="_blank"
+                            rel="noopener">
                             <div class="contact-link-icon">🐙</div>
                             <div>
                                 <div class="contact-link-text">GitHub</div>
@@ -2159,7 +2311,8 @@
                     </div>
                 </div>
                 <div class="contact-form reveal-right">
-                    <form id="contactForm" onsubmit="handleFormSubmit(event)" style="display:flex;flex-direction:column;gap:1rem;">
+                    <form id="contactForm" onsubmit="handleFormSubmit(event)"
+                        style="display:flex;flex-direction:column;gap:1rem;">
                         <input type="hidden" name="_subject" value="New message from Portfolio">
                         <div class="form-group">
                             <input type="text" name="name" id="name" placeholder="Your Name" required>
@@ -2175,7 +2328,11 @@
                         </div>
                         <div class="form-submit">
                             <button type="submit" class="btn btn-primary" id="formBtn">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13" />
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                                </svg>
                                 Send Message
                             </button>
                         </div>
@@ -2191,20 +2348,40 @@
             <div class="footer-inner">
                 <p class="footer-copy">&copy; 2026 Roshan Niran Lakra. Crafted with ❤️ and clean code.</p>
                 <div class="footer-socials">
-                    <a href="https://www.linkedin.com/in/roshan-niran-l-b6a319205" class="footer-social" target="_blank" rel="noopener" aria-label="LinkedIn">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    <a href="https://www.linkedin.com/in/roshan-niran-l-b6a319205" class="footer-social" target="_blank"
+                        rel="noopener" aria-label="LinkedIn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
                     </a>
-                    <a href="https://github.com/roshan-baka-dev" class="footer-social" target="_blank" rel="noopener" aria-label="GitHub">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    <a href="https://github.com/roshan-baka-dev" class="footer-social" target="_blank" rel="noopener"
+                        aria-label="GitHub">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
                     </a>
-                    <a href="https://leetcode.com/u/roshan_baka/" class="footer-social" target="_blank" rel="noopener" aria-label="LeetCode">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+                    <a href="https://leetcode.com/u/roshan_baka/" class="footer-social" target="_blank" rel="noopener"
+                        aria-label="LeetCode">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" />
+                        </svg>
                     </a>
-                    <a href="https://www.codechef.com/users/roshan_baka" class="footer-social" target="_blank" rel="noopener" aria-label="CodeChef">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.257.004C7.974.07 4.39 1.262 2.477 3.813c-.426.568-.79 1.46-.763 2.197.031.833.542 1.412.996 2.038.418.576.878 1.32.752 2.058-.146.857-.972 1.238-1.61 1.728-.69.532-1.276 1.316-1.418 2.198-.202 1.252.38 2.307 1.14 3.18C3.483 19.452 6.54 21.756 9.96 22.895c1.58.525 3.082.674 4.723.584 1.587-.087 3.222-.514 4.628-1.213 1.413-.703 2.592-1.748 3.411-3.12.42-.703.664-1.443.736-2.257.068-.764-.1-1.473-.429-2.168-.45-.949-1.192-1.72-1.845-2.546-.405-.513-.804-1.03-1.084-1.625-.297-.632-.35-1.257-.098-1.912.372-.963 1.233-1.616 1.643-2.565.405-.937.262-1.937-.272-2.79C19.676 1.082 16.543-.013 13.33 0c-.693.005-1.39.003-2.073.004zm.28 1.502c2.63-.063 5.304.722 7.08 2.698.358.397.587.89.466 1.433-.136.604-.663 1.009-1.082 1.44-.49.503-.968 1.06-1.154 1.746-.217.8-.034 1.593.335 2.32.37.728.89 1.362 1.39 1.998.474.604.961 1.2 1.28 1.906.2.44.278.913.21 1.394-.198 1.426-1.432 2.612-2.691 3.226-2.6 1.267-5.808 1.382-8.584.558-2.76-.82-5.357-2.613-6.812-5.116-.46-.793-.65-1.592-.355-2.464.238-.703.81-1.114 1.365-1.542.548-.422 1.124-.876 1.385-1.545.323-.829.115-1.672-.273-2.429-.367-.715-.87-1.344-1.079-2.13-.082-.308-.011-.659.16-.934C4.872 2.578 7.99 1.575 11.023 1.505l.514.001z"/></svg>
+                    <a href="https://www.codechef.com/users/roshan_baka" class="footer-social" target="_blank"
+                        rel="noopener" aria-label="CodeChef">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M11.257.004C7.974.07 4.39 1.262 2.477 3.813c-.426.568-.79 1.46-.763 2.197.031.833.542 1.412.996 2.038.418.576.878 1.32.752 2.058-.146.857-.972 1.238-1.61 1.728-.69.532-1.276 1.316-1.418 2.198-.202 1.252.38 2.307 1.14 3.18C3.483 19.452 6.54 21.756 9.96 22.895c1.58.525 3.082.674 4.723.584 1.587-.087 3.222-.514 4.628-1.213 1.413-.703 2.592-1.748 3.411-3.12.42-.703.664-1.443.736-2.257.068-.764-.1-1.473-.429-2.168-.45-.949-1.192-1.72-1.845-2.546-.405-.513-.804-1.03-1.084-1.625-.297-.632-.35-1.257-.098-1.912.372-.963 1.233-1.616 1.643-2.565.405-.937.262-1.937-.272-2.79C19.676 1.082 16.543-.013 13.33 0c-.693.005-1.39.003-2.073.004zm.28 1.502c2.63-.063 5.304.722 7.08 2.698.358.397.587.89.466 1.433-.136.604-.663 1.009-1.082 1.44-.49.503-.968 1.06-1.154 1.746-.217.8-.034 1.593.335 2.32.37.728.89 1.362 1.39 1.998.474.604.961 1.2 1.28 1.906.2.44.278.913.21 1.394-.198 1.426-1.432 2.612-2.691 3.226-2.6 1.267-5.808 1.382-8.584.558-2.76-.82-5.357-2.613-6.812-5.116-.46-.793-.65-1.592-.355-2.464.238-.703.81-1.114 1.365-1.542.548-.422 1.124-.876 1.385-1.545.323-.829.115-1.672-.273-2.429-.367-.715-.87-1.344-1.079-2.13-.082-.308-.011-.659.16-.934C4.872 2.578 7.99 1.575 11.023 1.505l.514.001z" />
+                        </svg>
                     </a>
-                    <a href="https://codeforces.com/profile/roshanlakra19122000" class="footer-social" target="_blank" rel="noopener" aria-label="Codeforces">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"/></svg>
+                    <a href="https://codeforces.com/profile/roshanlakra19122000" class="footer-social" target="_blank"
+                        rel="noopener" aria-label="Codeforces">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z" />
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -2216,7 +2393,7 @@
         // ============================================
         // PARTICLE SYSTEM
         // ============================================
-        (function() {
+        (function () {
             const canvas = document.getElementById('particles-canvas');
             const ctx = canvas.getContext('2d');
             let particles = [];
@@ -2413,13 +2590,13 @@
                         function updateCounter(currentTime) {
                             const elapsed = currentTime - start;
                             const progress = Math.min(elapsed / duration, 1);
-                            
+
                             // Ease out cubic
                             const eased = 1 - Math.pow(1 - progress, 3);
                             const current = Math.floor(eased * target);
-                            
+
                             entry.target.textContent = current.toLocaleString() + (target >= 1000 ? '+' : '');
-                            
+
                             if (progress < 1) {
                                 requestAnimationFrame(updateCounter);
                             } else {
@@ -2518,7 +2695,7 @@
         // SMOOTH SCROLL FOR ANCHOR LINKS
         // ============================================
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
@@ -2556,4 +2733,5 @@
         }
     </script>
 </body>
+
 </html>
