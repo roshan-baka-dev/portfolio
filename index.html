@@ -1506,8 +1506,16 @@
             }
 
             .about-card-stack {
-                max-width: 320px;
-                aspect-ratio: 1.1;
+                max-width: 100%;
+                aspect-ratio: unset;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+            }
+
+            .about-floating-card {
+                position: static;
+                animation: none;
             }
 
             .about-highlights {
